@@ -1,7 +1,7 @@
 {
 	"name": "gulp-cache-hyper-bust",
 	"version": "2.0.0",
-	"description": "Append a query string to your assets to bust that cache!",
+	"description": "Append a query string to your assets to hyper bust that cache! Now with a 100% more of options, like include images",
 	"keywords": [
 		"assets",
 		"cache",
