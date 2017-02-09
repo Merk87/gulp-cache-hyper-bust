@@ -1,6 +1,6 @@
 {
 	"name": "gulp-cache-hyper-bust",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Append a query string to your assets to bust that cache!",
 	"keywords": [
 		"assets",
