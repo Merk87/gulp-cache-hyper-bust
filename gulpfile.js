@@ -9,7 +9,7 @@
  gulp.task('cachehyperbust', function () {
  	return gulp.src('test/fixtures/**/*.html')
  	.pipe(cachehyperbust({
- 		type: 'MD5'
+ 		type: 'timestamp'
  	}))
  	.pipe(gulp.dest('./tmp'));
  });
