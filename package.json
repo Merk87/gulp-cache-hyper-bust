@@ -20,7 +20,7 @@
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
-    "cache-hyper-bust": "3.0.0",
+    "cache-hyper-bust": "3.1.0",
     "graceful-fs": "^4.1.9",
     "gulp-util": "3.0.7",
     "map-stream": "^0.1.0",
