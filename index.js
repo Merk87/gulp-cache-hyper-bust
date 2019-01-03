@@ -60,7 +60,7 @@ module.exports = function(options) {
 						options
 					);
 
-					if (options.showLog) {
+					if (options.showLog && data !== processedContents) {
 						gutil.log(
 							'gulp-cache-hyper-bust:',
 							gutil.colors.green('✔ ') + file.relative
